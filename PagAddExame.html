@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scriptPagPaciente.js"></script>
+    <link rel="stylesheet" href="stylePagPaciente.css">
+  <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+-->
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <span>
+                <a href="PagMedico.html"> <img id="imgLogo" src="imgLogoSemFundo.png" alt="Logo HCH"></a>
+               
+            </span> 
+        </div>
+        <div id="userInfo">
+            <span>
+                <a href="PagLogin.html"><img id="iconeUser" src="iconeLogin.png" alt="icone do usuario"></a>
+                <label>Nome Médico</label>
+                
+            </span> 
+        </div>
+      <!--  <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-start nav-link " aria-current="page" href="PagMedico.html">Home</a>
+            <a class="flex-sm-fill text-sm-start nav-link " href="PadAddPacientes.html">Adicionar Pacientes</a>
+            <a class="flex-sm-fill text-sm-start nav-link " href="PagAddTratamentos.html">Adicionar Tratamentos</a>
+            <a class="flex-sm-fill text-sm-start nav-link active" href="PagAddExame.html">Adicionar Exames</a>
+           
+        </nav>-->
+    </header>
+    <section>
+        <h2> Adicionar Exames </h2>
+
+        <form id="addExame" class="grid">
+            <label for="exame">Nome do Exame:</label><br>
+            <input type="text" id="exame" name="exame" required ><br><br>
+            <label for="local">Local:</label><br>
+            <input type="text" id="local" name="local" required ><br><br>
+            <label for="data">Data:</label><br>
+            <input type="date" id="data" name="data" required ><br><br>            
+            <input type="submit" value="Enviar">
+          </form><br>
+          <a  href="PagMedico.html"><button id="voltar">  Voltar</button></a><br><br>
+    </section>
+    
+    <footer>
+    <div id="rodape">
+        <Tel>Tel.: (98) 01234-5678</Tel>
+            <span>email: umemail@umemail.com</span>
+        </div>
+        <img id="logoFepi"src="logo-FEPI-rodape.png" alt="logo Fepi">
+    </footer>
+</body>
+</html>

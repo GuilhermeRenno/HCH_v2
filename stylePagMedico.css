@@ -1,0 +1,100 @@
+header{
+    position: sticky;
+    top: 0;
+    background-color:#088C7F;
+    font: optional;
+    border-bottom: 1px solid;
+    border-bottom-right-radius: 10px;    
+    border-bottom-left-radius: 10px;  
+
+
+    /* cor fundo escura verde #088C7F
+       cor clara fundo #CDFFD8 
+       cor logo escura #1F2B5B
+       cor fundo azul clara #94B9FF
+    */
+}
+#iconeUser{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#imgLogo{
+
+    /**proporcao 16:10**/
+    width: 114px;
+    height: 70px;
+    margin: 7px;
+}
+#logo{
+    float: left;
+}
+#userInfo{
+    text-align: end;
+    
+    margin-right: 20px;
+}
+#listaPaciente{
+    background-color: #088C7F;
+    width: auto;
+    height: auto;
+    min-height:390px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+footer{
+    background-color:#088C7F;
+    font: optional;
+    width: auto;
+   /** border-top: 1px solid #333;**/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 180px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+#rodape{
+    width: auto;
+    text-align: center;
+    float: right;
+    display:grid;
+    padding: 20px;
+    
+}
+#logoFepi{
+    width: 146px;
+    height: 123px;
+    float: left;
+    margin: 20px;
+}
+#minhaLista{
+    border: 60px;
+}
+
+.item {
+    
+    margin-bottom: 1em;
+    background-size: auto;
+    margin-inline: 1em;
+    
+  }
+  .dados {
+    margin-bottom: 0.5em;
+    display: none; /* Esconda os detalhes por padrão */
+  }
+  
+  
+  .nome {
+    flex-grow: 1;
+  }
+  
+  .button {
+    margin-left: 10px;
+    width: 50px;
+  }
